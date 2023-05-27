@@ -1,5 +1,5 @@
 h1 {
-    color: rgb(243, 25, 9);
+    color: #AF9164;
     font-family: 'Times New Roman', Times, serif;
 } 
 p {
@@ -7,7 +7,7 @@ p {
     text-align: justify;
 }
 body {
-    background-color: rgb(248, 248, 144);
+    background-color: #F3EFF5;
 }
 .html {
     font-size: 25px;
@@ -17,4 +17,36 @@ body {
 }
 .javascript {
     font-size: 35px;
+}
+
+#personal-photo {
+    position: absolute;
+    width: 300px;
+    background-color: #454955;
+    padding: 3%;
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 500px;
+    }
+
+#description {
+    position: absolute;
+    left: 500px;
+    margin-top: 25px;
+    margin-right: 5%;
+    margin-bottom: 10%;
+}
+
+#site-body {
+    position: absolute;
+    margin-top: 440px;
+}
+
+#name-page {
+    text-align: center;
+}
+
+ul li:nth-of-type(odd) {
+    background-color: #6A8EAE;
+    display: inline-block;
 }
