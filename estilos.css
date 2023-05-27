@@ -38,3 +38,8 @@ body {
 #name-page {
     text-align: center;
 }
+
+ul li:nth-of-type(odd) {
+    background-color: #6A8EAE;
+    display: inline-block;
+}
