@@ -20,19 +20,25 @@ body {
 }
 
 #personal-photo {
-    margin: 10px;
+    position: absolute;
     width: 300px;
-    float: left;
     background-color: #454955;
     padding: 3%;
-}
+    margin-top: 10px;
+    margin-left: 1%;
+    margin-bottom: 500px;
+    }
 
 #description {
-    margin: 30px 80px;
-    width: 400px;
-    float: left;
-    margin-right: 35%;
+    position: absolute;
+    left: 500px;
+    margin-right: 5%;
     margin-bottom: 10%;
+}
+
+#site-body {
+    position: absolute;
+    margin-top: 440px;
 }
 
 #name-page {
