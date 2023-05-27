@@ -19,10 +19,16 @@ body {
     font-size: 35px;
 }
 
-#description {
-
+#personal-photo {
+    margin: 20px;
+    width: 200px;
+    float: left;
 }
 
-#personal-photo {
-    
+#description {
+    margin: 30px 100px;
+    width: 400px;
+    float: left;
+    margin-right: 45%;
+    margin-bottom: 05%;
 }
